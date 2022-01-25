@@ -2,8 +2,11 @@
   "name": "node-debugger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node src/index.js",
+    "start:inspect": "node --inspect src/app.js",
+    "start:inspect-brk": "node --inspect-brk src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
